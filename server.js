@@ -43,7 +43,7 @@ router.post('/blue', function(req, res) {
     res.json({color: color});
 });
 
-router.post('/red', function(req, res) {
+router.post('/yellow', function(req, res) {
     color = "yellow";
     consol.log("yellow");
     res.json({color: color});
