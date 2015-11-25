@@ -27,25 +27,21 @@ router.get('/', function(req, res) {
 
 router.post('/green', function(req, res) {
     color = "green";
-    consol.log("green");
     res.json({color: color});
 });
 
 router.post('/red', function(req, res) {
     color = "red";
-    consol.log("red");
     res.json({color: color});
 });
 
 router.post('/blue', function(req, res) {
     color = "blue";
-    consol.log("blue");
     res.json({color: color});
 });
 
 router.post('/yellow', function(req, res) {
     color = "yellow";
-    consol.log("yellow");
     res.json({color: color});
 });
 
